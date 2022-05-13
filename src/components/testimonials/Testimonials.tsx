@@ -12,7 +12,7 @@ export const Testimonials: React.FC<Props> = ({
 }) => {
   return (
     <div
-      className={`flex flex-col items-center gap-3 relative bg-blue-dark-grayish/5 py-5 px-3 ${className}`}
+      className={`flex flex-col items-center gap-3 relative bg-gray-light py-5 px-3 ${className}`}
       {...rest}
     >
       <img
