@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/manage-landing-page-reactjs-BJr7rmiLc)
+- Live Site URL: [Live site URL here](https://starlit-narwhal-5a9be0.netlify.app)
 
 ## My process
 
