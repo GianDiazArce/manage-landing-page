@@ -29,14 +29,14 @@
 }
 
 body {
-  background: url("./images/bg-tablet-pattern.svg");
+  background: url("/images/bg-tablet-pattern.svg");
   background-repeat: no-repeat;
   background-position-y: -250px;
   background-position-x: 750px;
 }
 
 main {
-  background: url("images/bg-tablet-pattern.svg");
+  background: url("/images/bg-tablet-pattern.svg");
   background-repeat: no-repeat;
   background-position-x: -500px;
   background-position-y: bottom;
