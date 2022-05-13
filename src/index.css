@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .paragraph {
+    @apply text-blue-dark-grayish max-w-[438px];
+  }
+
+  .container {
+    @apply max-w-screen-xl mx-auto px-5 md:px-5 2xl:px-0;
+  }
+}
+
+.bg-image-color {
+  background: url("/images/bg-simplify-section-mobile.svg"), #f25f3a;
+  background-repeat: no-repeat;
+}
+
+
+@media screen and (min-width: 767px) {
+  .bg-image-color {
+    background: url("/images/bg-simplify-section-desktop.svg"), #f25f3a;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+  }
+}
+
+body {
+  background: url("./images/bg-tablet-pattern.svg");
+  background-repeat: no-repeat;
+  background-position-y: -250px;
+  background-position-x: 750px;
+}
+
+main {
+  background: url("images/bg-tablet-pattern.svg");
+  background-repeat: no-repeat;
+  background-position-x: -500px;
+  background-position-y: bottom;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: hsl(228, 39%, 23%);
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -7px);
+}
+
+@media(max-width:600px) {
+  body {
+    background-position-y: -214px;
+    background-position-x: -25%;
+    background-size: 40em;
+  }
+  main{
+    background: none;
+  }
+}
